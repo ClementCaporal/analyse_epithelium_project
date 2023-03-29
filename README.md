@@ -1,13 +1,12 @@
 # Biological Image Analysis Project: Case study of leaf epithelium
 
-Projet "guidé" pour mettre en pratique ces connaissances en analyse d'image.
-Vous serez évalué sur votre capacité à construire une base de données, créé une mini-package python pour répondre à trois objectifs et à les documenter.
+A guided project to put your knowledge of image analysis into practice. You will be assessed on your ability to build a database, create a python mini-package to resolve three goals and document them.
 
 ## Dataset and Motivation
 
-The proposed dataset for this project is accessible on Zenedo https://zenodo.org/record/5001583.
+The proposed dataset for this project is accessible on [Zenedo](https://zenodo.org/record/5001583).
 You should download the `cellImages.zip` file and unzip it in the `data` folder.
-Note that this dataset is very diverse. You will have to choose a subset of the data to work on and document your choice in the data `README.md` file.
+Note that this dataset is very diverse. You will have to choose a subset of the data to work on and document your choice in the data `README.md` file. In `data` you can find some examples of this dataset.
 
 ## Motivation
 
@@ -50,6 +49,7 @@ Take time to understand the following notions and find your own definitions:
 There are three main goals for this project. Take a moment with a pen and paper to write down your pipeline ideas and connect them between each other. This is a good way to find a first structure draft for your code.
 
 All the use cases should be implemented in the same python package in the `src` folder.
+
 ### Dataset: Leaf Epithelium
 
 This dataset is composed of pair of "leaf-level" images and "cell-level" images. You have to use the cell-level images to answer the following questions. You can use the leaf-level images to help you understand the dataset if you are curious about the plant.
@@ -85,8 +85,8 @@ Here we will look at specific cell organisation: can we find junction shared by 
 
 This could be the first step to get the dynamic of the epithelium, if the dataset includes time-lapse images, you could try to track the junctions over time. But this is not the goal of this project (yet!).
 
-![cell intercalation](https://royalsocietypublishing.org/cms/asset/37d124f8-7640-4a56-82de-15aa0391f819/rstb20170328f02.jpg)
-
+![image](https://user-images.githubusercontent.com/94049435/228680990-9797f8fc-a57c-4762-9285-1d478c43d781.png)
+from Tetley Robert J. and Mao Yanlan 2018 The same but different: cell intercalation as a driver of tissue deformation and fluidity Phil. Trans. R. Soc. B3732017032820170328 http://doi.org/10.1098/rstb.2017.0328
 
 > **Note**
 >  - You want to check if there are junction where more than 3 cells are touching each other.
@@ -105,6 +105,7 @@ You can find an example in the folder `results/how_are_cells_connected`. Please 
 > - Discuss the results and the limits in the README.md
 
 ![fig 6 of sapala](https://iiif.elifesciences.org/lax/32794%2Felife-32794-fig6-v2.tif/full/,1500/0/default.jpg)
+from A. Sapala et al., “Why plants make puzzle cells, and how their shape emerges,” eLife, vol. 7, p. e32794, Feb. 2018, doi: 10.7554/eLife.
 
 ## Deliverable
 
@@ -208,3 +209,6 @@ The different *presentations*: (*How to share, Architecure and feedback*) are no
 ## Contributing
 
 You can contribute to this project by forking the repository and submitting a pull request. We will review your changes and merge them into the main repository if they are relevant.
+
+Contributors: Clément Caporal, Camille Duquesne and Louise Dagher
+This projected has been created for the [Learning Planet Institute bachelor](https://licence.learningplanetinstitute.org/en)
