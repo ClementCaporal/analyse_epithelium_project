@@ -1,0 +1,3 @@
+# SRC README
+
+This folder should contain all your `.py` files. You can use the `src` folder to organize your code in different modules. For example, you can have a `src/segmentation.py` file that contains all the functions related to segmentation. You can also have a `src/visualization.py` file that contains all the functions related to visualization. You can also have a `src/utils.py` file that contains all the functions that are used in multiple modules.
